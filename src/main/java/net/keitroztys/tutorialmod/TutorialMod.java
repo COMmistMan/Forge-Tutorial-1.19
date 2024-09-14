@@ -15,7 +15,7 @@ import org.slf4j.Logger;
 public class TutorialMod {
     public static final String MODID = "tutorialmod";
     private static final Logger LOGGER = LogUtils.getLogger();
-
+//fuckd
     public TutorialMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::commonSetup);
